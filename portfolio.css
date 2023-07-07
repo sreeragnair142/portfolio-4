@@ -1,0 +1,142 @@
+#resume{
+    font-size: 32px;
+    font-weight: bold;
+   
+    padding-top: 20px;
+    position: relative;
+    color: #345676;
+    font-family: "Playfair Display", serif;
+}
+#exp, #edu{
+    font-size: 26px;
+    font-weight: 500;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    color: #345676;
+    font-family: "Playfair Display", serif;
+}
+#obj{
+    font-size: 26px;
+    font-weight: 500;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #345676;
+    font-family: "Playfair Display", serif;
+}
+#geo{
+    line-height: 18px;
+    font-size: 26px;
+    font-weight: 600;
+    color: #345676;
+    margin-bottom: 10px;
+    font-family: "Playfair Display", serif;
+    letter-spacing: 1px;
+}
+li{
+    color: rgb(48, 44, 44);
+    font-family: "Poppins", sans-serif;
+    line-height:30px;
+    font-size: 17px;
+    letter-spacing: 2px;
+ 
+}
+
+
+#ach{
+    font-size: 26px;
+    padding-top: 20px;
+    color: #345676;
+    font-family: "Playfair Display", serif;
+}
+#h1{
+    font-size: 45px;
+    font-weight: 600;
+    color: #345676;
+    margin-bottom: 10px;
+    font-family: "Playfair Display", serif;
+    letter-spacing: 1px;
+    margin-top: 50px;
+    margin-left: 40px;
+    padding-bottom: 40px;
+}
+h3{
+    font-size: 30px;
+    font-weight: 600;
+    color: #345676;
+    margin-left: 20px;
+    font-family: "Playfair Display", serif;
+    letter-spacing: 1px; 
+}
+#imga:hover,#img2:hover,#img3:hover,#img4:hover,#img5:hover,#img6:hover{
+    transform: scale(1.08);
+    
+}
+#imga,#img2,#img3,#img4,#img5,#img6{
+    margin: 1.5px ;
+    transition: transform 450ms;
+    max-height: 350px;
+  padding-bottom: 10px;
+  
+}
+.imgsize {
+    height: 400px;
+    width: 400px;
+    border-radius: 450px;
+    opacity: 0.8;
+    padding: 3px;
+    ma
+  }
+  .img1 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(mountain.jpg);
+    background-size: cover;
+    background-position: center;
+    box-sizing: border-box;
+    height: 100vh;
+   
+  }
+ 
+ .namehead{
+    height: 50vh;
+    font-family: "Playfair Display", serif;
+ }
+ .namehead h1{
+     position: relative;
+     top: 70%;
+     margin-left: 30PX;
+     
+     color:#fff;
+ }
+ 
+ .bgimg{
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(mountain.jpg);
+     background-size: cover ;
+     background-position: center;
+    min-height: 100vh;
+    position: relative;
+ }
+ 
+  @media (max-width:768px) {
+     .dp{
+        float: left;
+       
+        margin-left: 50px;
+     }
+     .namehead h1{
+         top: 50%;
+     }
+     .navbar{
+         margin-top: -0px;
+     }
+     .more{
+       
+        margin-top: 85%;
+     }
+ 
+     .languages{
+         padding-top: 50px;
+     } 
+ 
+    
+    
+     
+ }
